@@ -1,9 +1,11 @@
-/* will this save? */
+/* creates a sizing standard to apply for the whole page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+/* Scroll behaves more smoothly when links are clicked */
 html {
     scroll-behavior: smooth;
 }
@@ -19,16 +21,19 @@ header {
     color: #ffffff;
 }
 
+/* Creates in-line property that's width, height, etc can also be adjusted */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Used em instead of span. This ensures the text is not italicized */
 em {
     color: #a8aaa6;
     font-style: normal;
 }
 
+/* Positions the navigation bar within the header */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -37,15 +42,18 @@ header nav {
     font-size: 20px;
 }
 
+/* Gets rid of any bullets */
 header nav ul {
     list-style-type: none;
 }
 
+/* Used inline-block so that each link would appear in line without breaks. The block element allows styling changes like margin. */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Gets rid of the underline for the link */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -55,6 +63,7 @@ p {
     font-size: 16px;
 }
 
+/* I moved the image source into the html code. I used these styling options so that it would appear the same as when it was considered a background image */
 .hero img {
     height: 800px;
     width: 100%;
@@ -63,11 +72,13 @@ p {
     background-position: center;
 }
 
+/* Image is placed on the left side */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Image is placed on the right side */
 .float-right {
     float: right;
     margin-left: 25px;
