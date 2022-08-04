@@ -84,12 +84,14 @@ p {
     margin-left: 25px;
 }
 
+/* Content can be added without breaks but margin, width, etc changes can be applied. Takes 75% of screen */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Aside created on right side of screen. Takes up only 20% of screen */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,6 +103,7 @@ p {
     background-color: #2589bd;
 }
 
+/* The next 3 apply position properties and font color */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -116,6 +119,7 @@ p {
     color: #ffffff;
 }
 
+/* The next 3 apply header style properties */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -131,6 +135,7 @@ p {
     text-align: center;
 }
 
+/* The next 3 create break between elements and allows changes to position/size properties */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -149,6 +154,7 @@ p {
     max-width: 150px;
 }
 
+/* The next three position each section within the webpage */
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
