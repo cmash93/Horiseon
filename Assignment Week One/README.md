@@ -2,7 +2,8 @@
 
 ## What I did:  
 * I optimized the html language to adhere to semantic styling properties. Instead of `<div>`, I added elements such as `<header>`, `<footer>`, `<section>`, and `<article>` to create a more congruent flow and add more details about the sections from which I was working.  
-* In doing this, I needed to go into the CSS and provide additional changes to ensure all styling properties were correctly applied.    
+* In doing this, I needed to go into the CSS and provide additional changes to ensure all styling properties were correctly applied.  
+* I also optimized the CSS code to make sure certain things were not redundant. I grouped several sections together instead of them being all separated.      
 * Any images that did not have an alt value were given one with a descriptive tag.    
 * The title is now more applicable to the website and less vague.    
 * One of the links was not working properly, so I made sure that the coding included elements that allowed the links to go to the appropriate area of the page. I also added smooth scrolling within the CSS for a nicer flow.   
@@ -20,37 +21,26 @@
 
 ## CSS Examples
 > Before:   
->> .header {   
-    padding: 20px;   
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
-    background-color: #2a607c;   
+>> .benefit-lead, }   
+    margin-bottom: 32px;    
     color: #ffffff;   
-}
-
->> .header h1 {   
-    display: inline-block;   
-    font-size: 48px;   
-}   
-
->> .header h1 .seo {   
-    color: #d9dcd6;   
-}   
+}      
+>>.benefit-brand, {   
+    margin-bottom: 32px;    
+    color: #ffffff;   
+}     
+>>.benefit-cost {    
+    margin-bottom: 32px;    
+    color: #ffffff;    
+}     
 
 > After:    
->> header {    
-    padding: 20px;   
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
-    background-color: #2a607c;   
-    color: #ffffff;   
-}    
->>header h1 {   
-    display: inline-block;   
-    font-size: 48px;   
-}       
->>em {   
-    color: #a8aaa6;   
-    font-style: normal;   
-}    
+>> .benefit-lead,    
+.benefit-brand,    
+.benefit-cost {    
+    margin-bottom: 32px;    
+    color: #ffffff;    
+}     
 
 This formatting provided a clearer idea of what each section included.
 
